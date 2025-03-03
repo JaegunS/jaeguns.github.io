@@ -18,6 +18,8 @@
 - **Programmer**
     - September 2024 - Current
     - University of Michigan School of Information
+    - Developed a plugin that integrates Maizey into Google Sheets
+    - Helped migrate research dashboards from legacy U-M services to Fly.io
 
 # Education
 - Bachelor of Science in Data Science, Bachelor of Computer Science Candidate - Sophomore
@@ -46,12 +48,14 @@
     - A chess-playing neural network deployed in Sheets
     - Trained using Pytorch on the Lichess evals database
     - Deployed in Google Sheets
+- Agentic Maizey
+    - A proof-of-concept for a U-M Maizey-based agent
+    - Written from scratch without the use of libraries like Langchain
+    - Turns Retrieval QA-type Maizeys into conversational agents with the ability to use custom tools
+    - Allows the agent to consult other Maizey applications
 - Racacoonie
     - A Discord bot that scrapes U-M dining hall menus and helps students find food
     - Built using Discord.py and SQLite, hosted on a Raspberry Pi
-- Pamplemousse
-    - A Discord bot with a number of fun utilities
-    - Built using Hikari and Neo4j
 
 # Competition
 - Advent of Code 2023
