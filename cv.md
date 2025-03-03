@@ -1,0 +1,60 @@
+# Jaegun Song
+## 1290 Bardstown Trail
+## (734)730-9904 - jaeguntsong@gmail.com
+## https://github.com/JaegunS - https://github.com/Astral1119
+
+# Work Experience
+- **Administrative Assistant**
+    - September 2021 - December 2023
+    - Songbird Cafe
+    - Automated workflows using Google Sheets, reducing time spent on administrative tasks by 85%
+- **Intern**
+    - May 2024 - August 2024
+    - University of Michigan Information and Technology Services
+    - Emerging Technologies Group
+    - Worked as the backend developer for gotocollege.umich.edu, leveraging agentic AI to pair students with over 5 million scholarship opportunities
+    - Developed a chatbot for the Project Management Office at the University of Michigan
+    - Built web scrapers and a suite of tools to enhance Retrieval-Augmented Generation (RAG) applications
+- **Programmer**
+    - September 2024 - Current
+    - University of Michigan School of Information
+
+# Education
+- Bachelor of Science in Data Science, Bachelor of Computer Science Candidate - Sophomore
+    - University of Michigan, Ann Arbor
+    - Expected Graduation: May 2027
+    -  EECS 183 Showcase Grand Prize Winner
+- IB Diploma
+    - International Baccalaureate Program
+    - Graduated May 2023
+
+# Skills
+- Python, R, C++, NodeJS, Typescript, SQL, Neo4j
+- Data Analysis, Machine Learning, Web Development, Agentic AI
+- Michigan Seal of Bilteracy in Spanish
+
+# Projects
+- sheets.wiki
+    - Webmaster, developer, designer, and contributor
+    - Jamstack application built with Eleventy and Tailwind CSS, hosted on Netlify
+- astral.lol
+    - Portfolio of spreadsheet experiments
+    - Showcases novel bug usage and techniques in Google Sheets
+    - Includes projects such as esoteric language runtimes or implementations of various games
+    - Written entirely in Google Sheets formulae, no Google Apps Script
+- Sheets Bot
+    - A chess-playing neural network deployed in Sheets
+    - Trained using Pytorch on the Lichess evals database
+    - Deployed in Google Sheets
+- Racacoonie
+    - A Discord bot that scrapes U-M dining hall menus and helps students find food
+    - Built using Discord.py and SQLite, hosted on a Raspberry Pi
+- Pamplemousse
+    - A Discord bot with a number of fun utilities
+    - Built using Hikari and Neo4j
+
+# Competition
+- Advent of Code 2023
+    - 38 stars in Google Sheets Formulae
+    - Rank 1 Spreadsheet user
+    - Highest global rank 135 / 225,500
