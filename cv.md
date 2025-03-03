@@ -6,8 +6,7 @@
 # Work Experience
 - **Administrative Assistant**
     - September 2021 - December 2023
-    - Songbird Cafe
-    - Automated workflows using Google Sheets, reducing time spent on administrative tasks by 85%
+    - Songbird Cafe Automated workflows, reducing time spent on administrative tasks by 85%
 - **Intern**
     - May 2024 - August 2024
     - University of Michigan Information and Technology Services
@@ -18,7 +17,7 @@
 - **Programmer**
     - September 2024 - Current
     - University of Michigan School of Information
-    - Developed a plugin that integrates Maizey into Google Sheets
+    - Developed a plugin that integrates U-M Maizey into Google Sheets using student and faculty authentication
     - Helped migrate research dashboards from legacy U-M services to Fly.io
 
 # Education
@@ -30,8 +29,7 @@
     - International Baccalaureate Program
     - Graduated May 2023
 
-# Skills
-- Python, R, C++, NodeJS, Typescript, SQL, Neo4j
+# Skills - Python, C++, R, Typescript, NodeJS, SQL, Neo4j
 - Data Analysis, Machine Learning, Web Development, Agentic AI
 - Michigan Seal of Bilteracy in Spanish
 
@@ -57,8 +55,13 @@
     - A Discord bot that scrapes U-M dining hall menus and helps students find food
     - Built using Discord.py and SQLite, hosted on a Raspberry Pi
 
-# Competition
+# Miscellaneous
+- Rated 2400+ on Lichess; beat a grandmaster with the Bongcloud once
+- Ran a chess tournament featuring 60+ participants, including several grandmasters and featuring a prize pool of $300
+- Election worker for the City of Ann Arbor, 2022
 - Advent of Code 2023
     - 38 stars in Google Sheets Formulae
     - Rank 1 Spreadsheet user
     - Highest global rank 135 / 225,500
+- Participating in a six-year-old Dungeons and Dragons campaign
+- Admin of the Spreadsheets Discord Community, a community of ~4,200 spreadsheet enthusiasts
