@@ -14,7 +14,7 @@
     - Emerging Technologies Group
     - Worked as the backend developer for gotocollege.umich.edu, leveraging agentic AI to pair students with over 5 million scholarship opportunities
     - Developed a chatbot for the Project Management Office at the University of Michigan
-    - Built web scrapers and a suite of tools to enhance Retrieval-Augmented Generation (RAG) applications
+    - Built web scrapers and a suite of tools to enhance U-M Maizey, the University of Michigan's Retrieval-Augmented Generation (RAG) platform
 - **Programmer**
     - September 2024 - Current
     - University of Michigan School of Information
