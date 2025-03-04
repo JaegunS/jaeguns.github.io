@@ -29,7 +29,8 @@
     - International Baccalaureate Program
     - Graduated May 2023
 
-# Skills - Python, C++, R, Typescript, NodeJS, SQL, Neo4j
+# Skills
+- Python, C++, R, Typescript, NodeJS, SQL, Neo4j
 - Data Analysis, Machine Learning, Web Development, Agentic AI
 - Michigan Seal of Bilteracy in Spanish
 
