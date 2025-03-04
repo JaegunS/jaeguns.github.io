@@ -1,7 +1,9 @@
 # Jaegun Song
 ## jaeguntsong@gmail.com
-## https://github.com/JaegunS - https://github.com/Astral1119
-## https://www.linkedin.com/in/jaeguns/
+## Links
+- https://github.com/JaegunS
+- https://github.com/Astral1119
+- https://www.linkedin.com/in/jaeguns/
 
 # Work Experience
 - **Administrative Assistant**
