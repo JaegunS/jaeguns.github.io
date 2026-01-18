@@ -1,0 +1,51 @@
+\documentclass[11pt,letterpaper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% ---------- Formatting ----------
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.25in}
+
+\setlist[itemize]{
+  leftmargin=*,
+  itemsep=1pt,
+  topsep=2pt,
+  parsep=0pt
+}
+
+\titlespacing{\section}{0pt}{6pt}{4pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  linkcolor=black
+}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+{\Large\textbf{Jaegun Song}}\\[2pt]
+\small
+\href{mailto:jaeguntsong@gmail.com}{jaeguntsong@gmail.com} \,$\cdot$\, 
+\href{https://github.com/JaegunS}{github.com/JaegunS} \,$\cdot$\, 
+\href{https://linkedin.com/in/jaeguns}{linkedin.com/in/jaeguns} \,$\cdot$\, 
+\href{https://astral.cafe}{astral.cafe}
+\end{center}
+
+\vspace{-6pt}
+
+\begin{multicols}{2}
+
+CONTENT
+
+\end{multicols}
+\end{document}
