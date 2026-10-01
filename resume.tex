@@ -1,7 +1,7 @@
 \documentclass[11pt,letterpaper]{article}
 
 % ---------- Packages ----------
-\usepackage[margin=0.5in]{geometry}
+\usepackage[left=0.5in,right=0.5in,top=0.35in,bottom=0.35in]{geometry}
 \usepackage{multicol}
 \usepackage{enumitem}
 \usepackage{titlesec}
@@ -36,9 +36,9 @@
 {\Large\textbf{Jaegun Song}}\\[2pt]
 \small
 \href{mailto:jaeguntsong@gmail.com}{jaeguntsong@gmail.com} \,$\cdot$\, 
-\href{https://github.com/JaegunS}{github.com/JaegunS} \,$\cdot$\, 
+\href{https://github.com/Astral1119}{github.com/Astral1119} \,$\cdot$\, 
 \href{https://linkedin.com/in/jaeguns}{linkedin.com/in/jaeguns} \,$\cdot$\, 
-\href{https://astral.cafe}{astral.cafe}
+\href{https://jaegun.dev}{jaegun.dev}
 \end{center}
 
 \vspace{-6pt}
@@ -48,13 +48,25 @@
 \section*{Education}
 \textbf{University of Michigan, Ann Arbor}
 
-\textit{B.S. in Data Science, B.S. in Computer Science (Expected May 2027)}
+\textit{B.S. in Computer Science (Expected May 2027)}
 
 \begin{itemize}
   \item EECS 183 Showcase Grand Prize Winner (streaming video to an Arduino)
 \end{itemize}
 
 \section*{Experience}
+\textbf{Agent Engineering Intern}
+
+\textit{Aristotle (AI tutoring startup, employee \#6)}
+
+\textit{May 2026 – Aug 2026}
+
+\begin{itemize}
+  \item Shipped 111 merged PRs in three months across the tutor agent, observability, evals, email, and billing; most commits on the team in my final month
+  \item Built live session observability on Cloudflare Durable Objects; traced dropped events to instance eviction (every 10–60s), fixed with epoch-tagged sequences
+  \item Shipped PDF-by-link ingestion (credential-free fetcher, SSRF guards, atomic quota admission), replacing up to 155k tokens per turn with on-demand page reads
+  \item Built a session-review agent in production that critiques ended sessions in Slack and proposes prompt edits behind a human approval gate
+\end{itemize}
 \textbf{Data Science Intern}
 
 \textit{Enveda Biosciences / True Ventures Fellow}
@@ -62,8 +74,8 @@
 \textit{May 2025 – Aug 2025}
 
 \begin{itemize}
-  \item Coauthored a paper on leveraging molecular networks for NMR spectral annotation (https://doi.org/10.1038/s42004-025-01839-x)
-  \item Built a Discord–Slack bridge for a 190+ member AI founders network, improving cross-platform collaboration
+  \item Coauthored \href{https://doi.org/10.1038/s42004-025-01839-x}{a paper} on NMR molecular networking for structure characterization (\textit{Communications Chemistry}, 2025)
+  \item Built a Discord–Slack bridge for a 190+ member AI founders network
 \end{itemize}
 \textbf{Programmer}
 
@@ -81,18 +93,16 @@
 
 \begin{itemize}
   \item Built \href{https://gotocollege.umich.edu}{gotocollege.umich.edu}, matching students with 5M+ scholarships using agentic AI retrieval
-  \item Developed a chatbot for the Project Management Office
   \item Designed and deployed RAG utilities that improved Maizey document recall from 74\% → 86\%
 \end{itemize}
-\textbf{Administrative Assistant}, \textit{Songbird Café}
 
-\textit{Sep 2021 – Dec 2023}
-
-\begin{itemize}
-  \item Automated inventory, payroll, and invoicing workflows using Python and Google Sheets, reducing administrative time by 85\%
-\end{itemize}
+\columnbreak
 
 \section*{Projects}
+\textbf{Lattice} — \textit{Rust, Language Design}
+
+In progress, v1 October 2026. Functional language unifying spreadsheet formulas and structured programming, with one type system and lazy reactive evaluation across source files and cells.
+
 \textbf{Formulary} — \textit{Python, Playwright, resolvelib}
 
 Package manager for Google Sheets introducing dependency resolution, versioned named-function packages, and reproducible spreadsheet builds.
@@ -104,10 +114,6 @@ Research playground exploring spreadsheets as a programming language. Includes e
 \begin{itemize}
   \item Built a chess engine that evaluates positions and generates legal moves at 1-ply using a PyTorch neural network trained on Lichess data, with the engine itself implemented entirely in spreadsheet formulas
 \end{itemize}
-\textbf{Anduin} — \textit{Google Sheets, Functional Programming}
-
-Introduces record- and protocol-style abstractions to Google Sheets using pure formulas, enabling modularity and interface-like reasoning inspired by Clojure.
-
 \textbf{Brickwise} — \textit{Genetic Algorithms, Multimodal AI}
 
 Generated LEGO models from text and image prompts using genetic algorithms and mesh processing.
@@ -124,16 +130,14 @@ Founder and maintainer of a community-driven technical wiki documenting Google S
 
 \textbf{Frameworks/Tools:} PyTorch, scikit-learn, Neo4j, PostgreSQL, React
 
-\textbf{Domains:} Data Analysis, Machine Learning, Systems \& Tooling, Language Design, Agentic AI
-
 \textbf{Other:} Google Sheets (advanced), Michigan Seal of Biliteracy (Spanish)
 
 
 \section*{Selected Achievements and Community}
 \begin{itemize}
-  \item \textbf{Advent of Code 2023, 2025 (Google Sheets)}: Ranked #1 globally among spreadsheet-based submissions; solved algorithmic problems using only spreadsheet formulas
-  \item \textbf{Community Administration \& Technical Leadership}: Administrator of a 4,000+ member technical help community for advanced spreadsheet development; provides technical support and professional guidance and collaborates with a partnered 22,000+ member Reddit community
-  \item \textbf{Competitive Chess \& Event Organization}: 2450+ Lichess rating; organized online chess tournaments featuring grandmasters with prize pools up to \$500; previously coordinated events for a large chess streamer (Eric Rosen), including tournament operations for a 3,600-member Discord community
+  \item \textbf{Advent of Code 2023, 2025 (Google Sheets)}: Ranked \#1 globally among spreadsheet-based submissions; solved algorithmic problems using only spreadsheet formulas
+  \item \textbf{Community Administration \& Technical Leadership}: Administrator of a 4,000+ member technical help community for advanced spreadsheet development, partnered with a 22,000+ member Reddit community
+  \item \textbf{Competitive Chess \& Event Organization}: 2450+ Lichess rating; organized online chess tournaments featuring grandmasters with prize pools up to \$500
 \end{itemize}
 
 \end{multicols}

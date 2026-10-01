@@ -29,6 +29,7 @@ def md_to_tex(s: str) -> str:
         s.replace("&", r"\&")
          .replace("%", r"\%")
          .replace("$", r"\$")
+         .replace("#", r"\#")
     )
     return s
 
@@ -63,13 +64,15 @@ def build():
     body = []
     for name in sections.keys():
         if name in sections:
+            if name == "Projects":
+                body.append("\\columnbreak") # start the right column here
             body.append(render_section(name, sections[name]))
 
     tex = TEMPLATE.replace("CONTENT", "\n\n".join(body))
     Path("resume.tex").write_text(tex)
 
     subprocess.run(
-        ["xelatex", "-interaction=nonstopmode", "resume.tex"],
+        ["tectonic", "resume.tex"],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )

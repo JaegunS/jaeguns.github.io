@@ -3,7 +3,7 @@ all: pdf
 
 # generate resume PDF from clean markdown
 pdf: resume.md build_resume.py
-	python build_resume.py
+	python3 build_resume.py
 	@echo "generated resume.pdf"
 
 # clean generated files
